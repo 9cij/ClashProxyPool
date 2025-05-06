@@ -2,6 +2,9 @@
 在python中使用clash节点作为代理池，自动切换
 
 用法:
+先打开外部控制,如果是当前机器,默认127.0.0.1就行,其他机器访问就改成0.0.0.0,与下面的clash_api对应.
+允许局域网连接,混合端口一般就是7897
+![img.png](doc/img.png)
 ```python
 from clash_proxy_pool import ClashProxyPool
 
